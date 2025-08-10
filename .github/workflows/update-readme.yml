@@ -17,7 +17,7 @@ jobs:
 
       - name: Update date in README
         run: |
-          sed -i "s/^- 更新日期：.*/- 更新日期： $(date -u '+%Y-%m-%d')/" README.md
+          sed -i "s/^更新日期：.*/更新日期： $(date -u '+%Y-%m-%d')/" README.md
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
