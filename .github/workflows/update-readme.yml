@@ -1,0 +1,29 @@
+# .github/workflows/update-readme.yml
+
+name: Update README Date
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update date in README
+        run: |
+          sed -i "s/^- 更新日期：.*/- 更新日期： $(date -u '+%Y-%m-%d')/" README.md
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'docs(readme): Update README'
+          file_pattern: README.md
+          commit_user_name: GitHub Actions Bot
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions Bot <actions@github.com>
