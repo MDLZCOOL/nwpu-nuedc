@@ -31,7 +31,7 @@
     <img alt="NUEDC" src="https://img.shields.io/badge/NUEDC-red.svg" />
   </a>
   <a href="https://github.com/MDLZCOOL/nwpu-nuedc/stargazers">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/MDLZCOOL/nwpu-nuedc.svg?style=social&label=Stars" />
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/MDLZCOOL/nwpu-nuedc.svg?style=social&label=Stars&v=1" />
   </a>
 </p>
 
@@ -75,10 +75,9 @@
 感谢所有为这个项目做出贡献的同学们！
 
 <a href="https://github.com/MDLZCOOL/nwpu-nuedc/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MDLZCOOL/nwpu-nuedc"/>
+  <img src="https://contrib.rocks/image?repo=MDLZCOOL/nwpu-nuedc&v=1" />
 </a>
 
 ## 📜 许可证
 
 本项目采用 `MIT` 许可证，详情请参阅 [LICENSE.txt](./LICENSE.txt) 文件。
-
