@@ -17,7 +17,6 @@
 · <a href="https://github.com/MDLZCOOL/nwpu-nuedc/issues">反馈问题</a>
 · <a href="https://github.com/MDLZCOOL/nwpu-nuedc/pulls">提交贡献</a>
 </p>
-
 <p align="center">
   <a href="./LICENSE.txt">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg" />
@@ -35,6 +34,7 @@
     <img alt="GitHub Stars" src="https://img.shields.io/github/stars/MDLZCOOL/nwpu-nuedc.svg?style=social&label=Stars" />
   </a>
 </p>
+
 
 ---
 
@@ -75,7 +75,7 @@
 感谢所有为这个项目做出贡献的同学们！
 
 <a href="https://github.com/MDLZCOOL/nwpu-nuedc/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MDLZCOOL/nwpu-nuedc" />
+  <img src="https://contrib.rocks/image?repo=MDLZCOOL/nwpu-nuedc"/>
 </a>
 
 ## 📜 许可证
