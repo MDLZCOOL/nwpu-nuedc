@@ -1,4 +1,6 @@
-这段代码摘自：https://github.com/cnoviello/mastering-stm32/blob/master/nucleo-f030R8/system/src/retarget，感谢原作者
+这段代码摘自：https://github.com/cnoviello/mastering-stm32/blob/master/nucleo-f030R8/system/src/retarget
+
+感谢原作者
 
 默认用于stm32，其他平台需要修改接口
 
