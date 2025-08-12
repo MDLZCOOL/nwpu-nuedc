@@ -264,7 +264,8 @@ void AD9959_error(void)
  * @param time The duration of each frequency step in microsecond.(1-2048)j
  * @param NO_DWELL
  */
-void Sweep_Frequency(uint8_t Channel, uint32_t Start_Freq, uint32_t Stop_Freq, uint32_t Step, uint32_t time, uint8_t NO_DWELL)
+void Sweep_Frequency(uint8_t Channel, uint32_t Start_Freq, uint32_t Stop_Freq, uint32_t Step, uint32_t time,
+                     uint8_t NO_DWELL)
 {
     Channel_Select(Channel);
     switch (Channel)
@@ -392,9 +393,8 @@ void ReadData_AD9959(uint8_t RegisterAddress, uint8_t NumberofRegisters, uint8_t
     // GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
     // HAL_GPIO_Init(SDIO0_GPIO_Port, &GPIO_InitStruct);
 
-    DL_GPIO_initDigitalInputFeatures(AD9959_SD0_IOMUX,
-         DL_GPIO_INVERSION_DISABLE, DL_GPIO_RESISTOR_NONE,
-         DL_GPIO_HYSTERESIS_DISABLE, DL_GPIO_WAKEUP_DISABLE);
+    DL_GPIO_initDigitalInputFeatures(AD9959_SD0_IOMUX, DL_GPIO_INVERSION_DISABLE, DL_GPIO_RESISTOR_NONE,
+                                     DL_GPIO_HYSTERESIS_DISABLE, DL_GPIO_WAKEUP_DISABLE);
 
     delay_9959(0x20);
     // Read data
@@ -422,9 +422,8 @@ void ReadData_AD9959(uint8_t RegisterAddress, uint8_t NumberofRegisters, uint8_t
     // GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
     // HAL_GPIO_Init(SDIO0_GPIO_Port, &GPIO_InitStruct);
 
-    DL_GPIO_initDigitalOutputFeatures(AD9959_SD0_IOMUX,
-         DL_GPIO_INVERSION_DISABLE, DL_GPIO_RESISTOR_PULL_DOWN,
-         DL_GPIO_DRIVE_STRENGTH_LOW, DL_GPIO_HIZ_DISABLE);
+    DL_GPIO_initDigitalOutputFeatures(AD9959_SD0_IOMUX, DL_GPIO_INVERSION_DISABLE, DL_GPIO_RESISTOR_PULL_DOWN,
+                                      DL_GPIO_DRIVE_STRENGTH_LOW, DL_GPIO_HIZ_DISABLE);
     DL_GPIO_enableOutput(GPIOA, AD9959_SD0_PIN);
 }
 
@@ -507,7 +506,8 @@ void Freq2Word(double f, uint8_t *fWord)
 {
     // fWord 4 bytes
     uint32_t Temp;
-    Temp = (uint32_t)f * 8.589934592; // The input frequency factor is divided into four bytes.  8.589934592=(2^32)/500000000
+    Temp = (uint32_t)f *
+           8.589934592; // The input frequency factor is divided into four bytes.  8.589934592=(2^32)/500000000
     fWord[3] = (uint8_t)Temp;
     fWord[2] = (uint8_t)(Temp >> 8);
     fWord[1] = (uint8_t)(Temp >> 16);

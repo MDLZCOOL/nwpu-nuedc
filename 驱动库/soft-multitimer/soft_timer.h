@@ -8,12 +8,14 @@
 #define TMR_COUNT 10 // 最大软件定时器数量，不要太大
 #include <stdint.h>
 
-typedef enum {
+typedef enum
+{
     TMR_ONCE_MODE = 0,
     TMR_AUTO_MODE = 1
 } TMR_MODE_E;
 
-typedef struct {
+typedef struct
+{
     volatile uint8_t Mode;
     volatile uint8_t Flag;
     volatile uint32_t Count;
@@ -34,4 +36,4 @@ uint8_t CheckSoftTimer(uint8_t _id);
 
 void SoftTimerDec(SOFT_TMR *_tmr);
 
-#endif //SOFT_TIMER_H
+#endif // SOFT_TIMER_H

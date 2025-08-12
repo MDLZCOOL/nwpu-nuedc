@@ -14,8 +14,8 @@ extern INA226Data_TypeDef INA226Data;
 #define INA226_COM_PORT hi2c2 /*通讯使用的IIC接口*/
 extern I2C_HandleTypeDef INA226_COM_PORT;
 
-#define INA226_ADDRESS 0x80    /*INA226_电池地址*/
-#define INA226_I2C_TIMEOUT 10             /*IIC通讯超时*/
+#define INA226_ADDRESS 0x80   /*INA226_电池地址*/
+#define INA226_I2C_TIMEOUT 10 /*IIC通讯超时*/
 
 #define INA226_CALIB_VAL 1024
 #define INA226_CURRENTLSB 0.5F                           // mA/bit
@@ -111,7 +111,6 @@ uint16_t INA226_GetManufID(uint16_t ina226Address);
 uint16_t INA226_GetDieID(uint16_t ina226Address);
 uint16_t INA226_GetMaskEnable(uint16_t ina226Address);
 uint16_t INA226_GetAlertLimit(uint16_t ina226Address);
-
 
 /*
  * 设置转换时间8.244ms,求平均值次数16，设置模式为分流和总线连续模式

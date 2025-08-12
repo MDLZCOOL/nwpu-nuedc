@@ -1,9 +1,9 @@
 #ifndef __AD9959_H
 #define __AD9959_H
 
-#include <stdint.h>
-#include "ti_msp_dl_config.h"
 #include "ti/driverlib/dl_gpio.h"
+#include "ti_msp_dl_config.h"
+#include <stdint.h>
 
 #define SDIO0_H DL_GPIO_setPins(AD9959_PORT, AD9959_SD0_PIN)
 #define SDIO0_L DL_GPIO_clearPins(AD9959_PORT, AD9959_SD0_PIN)
@@ -60,7 +60,8 @@ void Write_Phase(uint8_t Channel, uint16_t Phase);
 
 uint32_t Get_Freq(void);
 uint8_t Get_Amp(void);
-void Sweep_Frequency(uint8_t Channel, uint32_t Start_Freq, uint32_t Stop_Freq, uint32_t Step, uint32_t time, uint8_t NO_DWELL);
+void Sweep_Frequency(uint8_t Channel, uint32_t Start_Freq, uint32_t Stop_Freq, uint32_t Step, uint32_t time,
+                     uint8_t NO_DWELL);
 void Channel_Select(uint8_t Channel);
 void Stop_AD9959(void);
 void AD9959_error(void);
