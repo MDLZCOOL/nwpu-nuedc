@@ -11,7 +11,6 @@
 <p align="center">
   <strong>一个面向西工大电赛基地同学的开源备赛资料库</strong>
 </p>
-
 <p align="center">
 简体中文
 · <a href="https://github.com/MDLZCOOL/nwpu-nuedc/issues">反馈问题</a>
@@ -33,7 +32,10 @@
   <a href="https://github.com/MDLZCOOL/nwpu-nuedc/stargazers">
     <img alt="GitHub Stars" src="https://img.shields.io/github/stars/MDLZCOOL/nwpu-nuedc.svg?style=social&label=Stars&v=1" />
   </a>
+  <a href="https://img.shields.io"><img src="https://img.shields.io/github/repo-size/MDLZCOOL/nwpu-nuedc" alt="Size">
+  </a>
 </p>
+
 
 
 ---
@@ -41,10 +43,10 @@
 | 目录                   | 备注                                                         |
 | ---------------------- | ------------------------------------------------------------ |
 | assets                 |                                                              |
-| [书籍](./书籍)         | 包含与电赛相关的经典教材、参考书和技术手册的电子版           |
-| [历年赛题](./历年赛题) | 历年校赛、联赛、国赛、综合测评题目                           |
+| [书籍](./书籍)         | 包含与电赛相关的经典教材、参考书和技术手册的电子版（限内网） |
+| [历年赛题](./历年赛题) | 历年校赛（限内网）、联赛、国赛、综合测评题目                 |
 | [物品清单](./物品清单) | 待补充                                                       |
-| [驱动库](./驱动库)     | 收集并整理了常用MCU、传感器、通信模块的底层驱动代码，方便快速进行原型开发 |
+| [驱动库](./驱动库)     | 收集并整理了常用传感器、模块的驱动代码，常用工具库，方便快速进行原型开发 |
 
 ---
 
