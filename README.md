@@ -1,4 +1,4 @@
-更新日期： 2025-08-12
+更新日期： 2025-08-15
 <div class="logo-container">
   <img src="assets/NWPU_NUEDC_LOGO.jpg" alt="NWPU_NUEDC_LOGO" height="100">
   <img src="assets/NUEDC_LOGO.jpg" alt="NUEDC_LOGO" height="100">
