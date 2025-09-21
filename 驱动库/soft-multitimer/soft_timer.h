@@ -1,8 +1,8 @@
 /*
-* SPDX-FileCopyrightText: 2025 MDLZCOOL <mdlzcool@foxmail.com>
-*
-* SPDX-License-Identifier: Apache-2.0
-*/
+ * SPDX-FileCopyrightText: 2025 MDLZCOOL <mdlzcool@foxmail.com>
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
 #pragma once
 
@@ -35,4 +35,4 @@ void StopSoftTimer(uint8_t _id);
 
 uint8_t CheckSoftTimer(uint8_t _id);
 
-void SoftTimerDec(SOFT_TMR* _tmr);
+void SoftTimerDec(SOFT_TMR *_tmr);
