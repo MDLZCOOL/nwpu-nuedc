@@ -1,9 +1,10 @@
-//
-// Created by MDLZ on 25-2-24.
-//
+/*
+* SPDX-FileCopyrightText: 2025 MDLZCOOL <mdlzcool@foxmail.com>
+*
+* SPDX-License-Identifier: Apache-2.0
+*/
 
 #include "soft_timer.h"
-
 #include "cmsis_gcc.h"
 
 SOFT_TMR s_tTmr[TMR_COUNT];

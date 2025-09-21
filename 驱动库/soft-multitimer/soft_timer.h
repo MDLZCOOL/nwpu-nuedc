@@ -1,11 +1,12 @@
-//
-// Created by MDLZ on 25-2-24.
-//
+/*
+* SPDX-FileCopyrightText: 2025 MDLZCOOL <mdlzcool@foxmail.com>
+*
+* SPDX-License-Identifier: Apache-2.0
+*/
 
-#ifndef SOFT_TIMER_H
-#define SOFT_TIMER_H
+#pragma once
 
-#define TMR_COUNT 10 // 最大软件定时器数量，不要太大
+#define TMR_COUNT 5 // 最大软件定时器数量，不要太大(0~N-1)
 #include <stdint.h>
 
 typedef enum
@@ -26,14 +27,12 @@ extern SOFT_TMR s_tTmr[TMR_COUNT];
 
 void InitSoftTimer(void);
 
-void StartSoftTimer(uint8_t _id, uint32_t _period);
+void StartSoftTimer(uint8_t _id, uint32_t _period); // 单次
 
-void StartSoftAutoTimer(uint8_t _id, uint32_t _period);
+void StartSoftAutoTimer(uint8_t _id, uint32_t _period); // 自动
 
 void StopSoftTimer(uint8_t _id);
 
 uint8_t CheckSoftTimer(uint8_t _id);
 
-void SoftTimerDec(SOFT_TMR *_tmr);
-
-#endif // SOFT_TIMER_H
+void SoftTimerDec(SOFT_TMR* _tmr);

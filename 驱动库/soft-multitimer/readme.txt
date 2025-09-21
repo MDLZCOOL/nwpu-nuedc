@@ -1,3 +1,9 @@
+/*
+* SPDX-FileCopyrightText: 2025 MDLZCOOL <mdlzcool@foxmail.com>
+*
+* SPDX-License-Identifier: Apache-2.0
+*/
+
 可以跨平台，自行修改接口
 
 stm32f4xx_it.c 里面是一个示例，需要对接到硬件定时器中
