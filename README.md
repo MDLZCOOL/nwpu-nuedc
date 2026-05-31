@@ -1,4 +1,3 @@
-更新日期： 2025-09-21
 <div class="logo-container">
   <img src="assets/NWPU_NUEDC_LOGO.jpg" alt="NWPU_NUEDC_LOGO" height="100">
   <img src="assets/NUEDC_LOGO.jpg" alt="NUEDC_LOGO" height="100">
@@ -82,11 +81,11 @@
 
 ## 📜 许可证与声明
 
-本项目采用 `MIT` 许可证，详情请参阅 [LICENSE.txt](./LICENSE.txt) 文件。  
+如果未特殊说明，本项目采用 `MIT` 许可证，详情请参阅 [LICENSE.txt](./LICENSE.txt) 文件。  
 
 > [!WARNING]  
 > 本仓库所收录的资料、代码及相关资源仅供学习与交流使用，不得用于任何商业用途或违反相关法律法规的行为。
 > 使用本仓库内容所产生的一切风险与后果，由使用者自行承担，本项目维护者不对由此引发的任何直接或间接损失负责。
 >
 > 本仓库部分内容整理自互联网公开资源、历年竞赛资料及参与者经验分享，版权归原作者所有。
-> 若涉及版权或侵权问题，请通过 [Issue](https://github.com/MDLZCOOL/nwpu-nuedc/issues) 联系我们，我们将及时处理。
+> 若涉及版权或侵权问题，请通过 [Issues](https://github.com/MDLZCOOL/nwpu-nuedc/issues) 联系我们，我们将及时处理。
