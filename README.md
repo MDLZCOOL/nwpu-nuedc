@@ -89,3 +89,7 @@
 >
 > 本仓库部分内容整理自互联网公开资源、历年竞赛资料及参与者经验分享，版权归原作者所有。
 > 若涉及版权或侵权问题，请通过 [Issues](https://github.com/MDLZCOOL/nwpu-nuedc/issues) 联系我们，我们将及时处理。
+
+感谢以下项目：
+
+- [NUEDC_Topic](https://github.com/CCBP/NUEDC_Topic)
