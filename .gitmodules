@@ -1,3 +1,6 @@
 [submodule "驱动库/CherryUSB"]
 	path = 驱动库/CherryUSB
 	url = https://github.com/cherry-embedded/CherryUSB
+[submodule "报告模板/(latex)Template-for-Electrical-Competition-Report"]
+	path = 报告模板/(latex)Template-for-Electrical-Competition-Report
+	url = https://github.com/SandOcean-ovo/Template-for-Electrical-Competition-Report.git
