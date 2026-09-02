@@ -4,3 +4,6 @@
 [submodule "报告模板/(latex)Template-for-Electrical-Competition-Report"]
 	path = 报告模板/(latex)Template-for-Electrical-Competition-Report
 	url = https://github.com/SandOcean-ovo/Template-for-Electrical-Competition-Report.git
+[submodule "开源工程/2025-A题-国一"]
+	path = 开源工程/2025-A题-国一
+	url = https://github.com/MDLZCOOL/2025-National-Electronic-Design-Contest-A-Problem.git
